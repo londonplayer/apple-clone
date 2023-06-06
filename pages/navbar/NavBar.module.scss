@@ -1,0 +1,125 @@
+@import "variables.scss";
+
+.container {
+	display: flex;
+	justify-content: center;
+	background-color: $nav;
+	height: 44px;
+	width: 100%;
+	position: fixed;
+
+	span {
+		color: $headerWhite;
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: -0.01em;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	}
+
+	.buttons {
+		display: flex;
+		justify-content: space-between;
+		gap: 36px;
+		height: auto;
+
+		.logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			svg {
+				color: $headerWhite;
+				height: 20px;
+				width: 20px;
+			}
+		}
+
+		.store {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.mac {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.ipad {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.iphone {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.watch {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.vision {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.airpods {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.tvhome {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.entertainment {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.accessories {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.support {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.search {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			svg {
+				color: $headerWhite;
+				height: 18px;
+				width: 18px;
+			}
+		}
+
+		.cart {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			svg {
+				color: $headerWhite;
+				height: 16px;
+				width: 16px;
+			}
+		}
+	}
+}
